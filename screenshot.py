@@ -27,7 +27,7 @@ def on_press(key):
         print(f"An error occurred: {e}")
 
 def on_release(key):
-    print(f"on_release: {key}")
+    # print(f"on_release: {key}")
     try:
         # remove the key from pressed keys set
         pressed_keys.remove(key)
